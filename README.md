@@ -4,12 +4,14 @@
 <br>
 <br>
 2- Pull PostgreSQL
+
 ```docker
 docker pull postgres
 ```
 <br>
 <br>
 3- Run PostgreSQL by docker
+
 ```docker
 docker run -p 5432:5432 -e POSTGRES_PASSWORD=mysecretpassword -d postgres
 ```
